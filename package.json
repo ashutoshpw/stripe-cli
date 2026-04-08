@@ -2,6 +2,14 @@
   "name": "@w3devx/stripe-cli",
   "version": "0.0.1",
   "description": "CLI tool for browsing Stripe data with local caching",
+  "homepage": "https://github.com/ashutoshpw/stripe-cli",
+  "bugs": {
+    "url": "https://github.com/ashutoshpw/stripe-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashutoshpw/stripe-cli.git"
+  },
   "module": "src/index.ts",
   "type": "module",
   "bin": {
