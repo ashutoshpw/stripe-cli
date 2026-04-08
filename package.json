@@ -1,0 +1,25 @@
+{
+  "name": "xstripe",
+  "version": "0.1.0",
+  "description": "CLI tool for browsing Stripe data with local caching",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "xstripe": "bin/xstripe"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --hot src/index.ts",
+    "build": "bun build src/index.ts --compile --outfile dist/xstripe",
+    "link": "bun build src/index.ts --compile --outfile dist/xstripe && ln -sf \"$(pwd)/dist/xstripe\" ~/.bun/bin/xstripe",
+    "unlink": "rm -f ~/.bun/bin/xstripe",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
