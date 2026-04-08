@@ -4,7 +4,6 @@
   "description": "CLI tool for browsing Stripe data with local caching",
   "module": "src/index.ts",
   "type": "module",
-  "private": true,
   "bin": {
     "xstripe": "bin/xstripe"
   },

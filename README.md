@@ -283,4 +283,4 @@ Package scripts:
 
 ## License
 
-No license file is present in this repository yet.
+MIT
