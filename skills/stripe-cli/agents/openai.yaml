@@ -1,7 +1,8 @@
 version: 1
 display_name: Stripe CLI
-short_description: Use the local xstripe CLI to inspect Stripe data, auth, profiles, and cache state.
+short_description: Use the local stripe-cli package and xstripe executable to inspect Stripe data, auth, profiles, and cache state.
 default_prompt: >-
-  Use the local xstripe CLI to inspect Stripe data in a read-only way. Prefer
-  built-in resource commands first, then search, and only use raw API requests
-  when the CLI does not expose the needed endpoint directly.
+  Use the local @w3devx/stripe-cli package through its xstripe executable to
+  inspect Stripe data in a read-only way. Prefer built-in resource commands
+  first, then search, and only use raw API requests when the CLI does not
+  expose the needed endpoint directly.

@@ -1,6 +1,6 @@
 {
-  "name": "xstripe",
-  "version": "0.1.0",
+  "name": "@w3devx/stripe-cli",
+  "version": "0.0.1",
   "description": "CLI tool for browsing Stripe data with local caching",
   "module": "src/index.ts",
   "type": "module",

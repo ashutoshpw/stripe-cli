@@ -1,11 +1,11 @@
 ---
 name: stripe-cli
-description: Use when an agent needs to inspect Stripe account data from the terminal using the local xstripe CLI. Covers authentication, profile selection, listing resources, fetching records by ID, searching supported resources, checking balances, inspecting cached data behavior, and using raw API requests only when the built-in commands are insufficient.
+description: Use when an agent needs to inspect Stripe account data from the terminal using the local stripe-cli package and its xstripe executable. Covers authentication, profile selection, listing resources, fetching records by ID, searching supported resources, checking balances, inspecting cached data behavior, and using raw API requests only when the built-in commands are insufficient.
 ---
 
-# xstripe Usage
+# Stripe CLI Usage
 
-Use `xstripe` as the first choice when the task is to read or inspect Stripe data in this repository's environment.
+Use the `xstripe` executable from the `@w3devx/stripe-cli` package as the first choice when the task is to read or inspect Stripe data in this repository's environment.
 
 ## When To Use
 

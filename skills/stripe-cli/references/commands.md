@@ -1,6 +1,6 @@
-# xstripe Command Map
+# stripe-cli Command Map
 
-Use this file when choosing the right `xstripe` command for a Stripe inspection task.
+Use this file when choosing the right `xstripe` command from the `@w3devx/stripe-cli` package for a Stripe inspection task.
 
 ## Setup Commands
 

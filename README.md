@@ -4,6 +4,8 @@ Read-only Stripe CLI for browsing account data with local caching, profile suppo
 
 `xstripe` is built for developers who want a fast terminal workflow for inspecting Stripe resources without opening the dashboard for every lookup.
 
+The npm package name is `@w3devx/stripe-cli`, and the installed executable is `xstripe`.
+
 ## Features
 
 - Read-only Stripe data browser
@@ -34,10 +36,10 @@ Short aliases are also available, for example `cust`, `ch`, `pi`, `sub`, `inv`, 
 
 ## Installation
 
-`xstripe` is a Bun-based CLI. When published to npm, users will need `bun` installed and available on their `PATH`.
+`xstripe` is a Bun-based CLI published as `@w3devx/stripe-cli`. Users need `bun` installed and available on their `PATH`.
 
 ```bash
-npm install -g xstripe
+npm install -g @w3devx/stripe-cli
 ```
 
 Verify the install after global installation:
@@ -45,6 +47,8 @@ Verify the install after global installation:
 ```bash
 xstripe --version
 ```
+
+After installation, run the CLI as `xstripe`.
 
 If you are using it from source instead of the npm registry:
 
